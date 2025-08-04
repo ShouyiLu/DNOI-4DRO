@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <!-- Meta tags for SEO and social media -->
+  <meta name="description" content="MultiEditor is a dual-branch diffusion framework for controllable multimodal object editing in autonomous driving scenarios using 3D Gaussian Splatting priors.">
+  <meta name="keywords" content="Multimodal Editing, Diffusion Model, 3D Gaussian Splatting, Autonomous Driving, LiDAR, Image Editing">
+
+  <!-- Open Graph (Facebook, LinkedIn) -->
+  <meta property="og:title" content="MultiEditor: Controllable Multimodal Object Editing for Driving Scenarios"/>
+  <meta property="og:description" content="A diffusion-based framework using 3D Gaussian Splatting for editing images and LiDAR data in autonomous driving."/>
+  <meta property="og:url" content="https://yourprojectsite.com"/>
+  <meta property="og:image" content="static/images/your_banner_image.png"/>
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+  <!-- Twitter -->
+  <meta name="twitter:title" content="MultiEditor: Controllable Multimodal Object Editing for Driving Scenarios">
+  <meta name="twitter:description" content="Edit image and LiDAR data with 3D Gaussian priors for autonomous driving scenarios.">
+  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <title>MultiEditor | Controllable Multimodal Editing</title>
+  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+
+  <!-- Fonts and CSS -->
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <!-- Scripts -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+
+<body>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">
+              DNOI-4DRO: Deep 4D Radar Odometry with Differentiable Neural-Optimization Iterations
+            </h1>
+
+            <div class="is-size-5 publication-authors">
+              <span class="author-block"><a href="https://scholar.google.com/citations?user=kRKEO4kAAAAJ&hl=zh-CN" target="_blank">Shouyi Lu</a><sup>1</sup>,</span>
+              <span class="author-block"><a target="_blank">Huanyu Zhou</a><sup>1</sup>,</span>
+              <span class="author-block"><a target="_blank">Guirong Zhuo</a><sup>1*</sup>,</span>
+              <span class="author-block"><a target="_blank">Xiao Tang</a><sup>1</sup></span>
+            </div>
+
+            <div class="is-size-5 publication-authors">
+              <span class="author-block">
+                <sup>1</sup>School of Automotive Studies, Tongji University<br>
+              </span>
+              <br>
+              <small><sup>*</sup>Corresponding author</small>
+            </div>
+
+            <!-- Paper Links -->
+            <div class="column has-text-centered">
+              <div class="publication-links">
+                <span class="link-block">
+                  <a href="https://arxiv.org/pdf/2505.12310.pdf" class="external-link button is-normal is-rounded is-dark" target="_blank">
+                    <span class="icon"><i class="fas fa-file-pdf"></i></span>
+                    <span>Paper</span>
+                  </a>
+                </span>
+                <span class="link-block">
+                  <a href="https://github.com/YOUR_REPO_HERE" class="external-link button is-normal is-rounded is-dark" target="_blank">
+                    <span class="icon"><i class="fab fa-github"></i></span>
+                    <span>Code - Coming Soon...</span>
+                  </a>
+                </span>
+                <span class="link-block">
+                  <a href="https://arxiv.org/abs/2505.12310" class="external-link button is-normal is-rounded is-dark" target="_blank">
+                    <span class="icon"><i class="ai ai-arxiv"></i></span>
+                    <span>arXiv</span>
+                  </a>
+                </span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Abstract -->
+  <section class="section hero is-light">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Abstract</h2>
+          <div class="content has-text-justified">
+            <p>
+              A novel learning-optimization-combined 4D radar odometry model, named DNOI-4DRO, is proposed in this paper. The proposed model seamlessly integrates traditional geometric optimization with end-to-end neural network training, leveraging an innovative differentiable neural-optimization iteration operator. 
+              In this framework, point-wise motion flow is first estimated using a neural network, followed by the construction of a cost function based on the relationship between point motion and pose in 3D space. The radar pose is then refined using Gauss-Newton updates. 
+              Additionally, we design a dual-stream 4D radar backbone that integrates multi-scale geometric features and clustering-based class-aware features to enhance the representation of sparse 4D radar point clouds. 
+              Extensive experiments on the VoD and Snail-Radar datasets demonstrate the superior performance of our model, which outperforms recent classical and learning-based approaches. Notably, our method even achieves results comparable to A-LOAM with mapping optimization using LiDAR point clouds as input.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Image Carousels -->
+  <!-- Image and Text Section -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <h2 class="title is-3 has-text-centered">Method</h2>
+    <div class="box has-text-centered">
+      <!-- 同一宽度限制容器 -->
+      <div style="margin: 0 auto; width: 50%;">
+        <p class="subtitle mb-4">
+          <strong>Overview of the proposed MultiEditor framework:</strong> A dual-branch diffusion model is employed to edit multimodal data. Each branch incorporates a multi-level appearance control mechanism for fidelity, while a cross-modality condition module enhances consistency between modalities.
+        </p>
+        <figure class="image">
+          <img src="static/images/fig1.png"
+               alt="Overview of the proposed MultiEditor framework"
+               style="width: 100%; height: auto;">
+        </figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<video controls width="800" style="display: block; margin: 0 auto;">
+  <source src="static/videos/1_1.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+  
+
+  <!-- BibTeX -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>@article{lu2025dnoi,
+  title={DNOI-4DRO: Deep 4D Radar Odometry with Differentiable Neural-Optimization Iterations},
+  author={Lu, Shouyi and Zhou, Huanyu and Zhuo, Guirong},
+  journal={arXiv preprint arXiv:2505.12310},
+  year={2025}
+}
+</code></pre>
+    </div>
+  </section>
+</body>
+</html>
