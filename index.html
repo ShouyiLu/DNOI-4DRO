@@ -126,7 +126,7 @@
       <!-- 同一宽度限制容器 -->
       <div style="margin: 0 auto; width: 50%;">
         <p class="subtitle mb-4">
-          <strong>Overview of the proposed MultiEditor framework:</strong> A dual-branch diffusion model is employed to edit multimodal data. Each branch incorporates a multi-level appearance control mechanism for fidelity, while a cross-modality condition module enhances consistency between modalities.
+          <strong>Overview of our backbone. (1) The feature and context extractors encode the point and context features of the input point cloud, respectively. (2) The feature correlation module constructs an all-pair correlation volume by calculating the matrix dot product of two-point features. (3) In each iteration, the differentiable neural-optimization iteration operator uses the pose estimated in the previous iteration to look up correlation features from the correlation volume, which are then processed through a GRU to generate a point motion field. The point motion field is fed into a least-squares-based optimization layer, where the pose is updated based on geometric constraints. After multiple iterations, the network outputs the predicted pose.
         </p>
         <figure class="image">
           <img src="static/images/fig1.png"
